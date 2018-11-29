@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.FallbackIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "TrainTrackerIntent",
+      "slots": [
+        {
+          "name": "Line",
+          "type": "AMAZON.Color",
+          "samples": [
+            "{Line}"
+          ]
+        },
+        {
+          "name": "Direction",
+          "type": "Direction",
+          "samples": [
+            "{Direction}"
+          ]
+        },
+        {
+          "name": "Stop",
+          "type": "Stop",
+          "samples": [
+            "{Stop}"
+          ]
+        }
+      ],
+      "samples": [
+        "when does the next {Line} line train to {Direction} arrive at {Stop}"
+      ]
+    }
+  ]
+}

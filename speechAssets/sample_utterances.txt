@@ -1,0 +1,4 @@
+TrainTrackerIntent when does the next {Line} line train to {Direction} arrive at {Stop}
+TrainTrackerIntent when will the next {Line} line train to {Direction} arrive at {Stop}
+TrainTrackerIntent when will the next {Line} line train {Direction} arrive at {Stop}
+TrainTrackerIntent when does the next {Line} line train {Direction} arrive at {Stop}
