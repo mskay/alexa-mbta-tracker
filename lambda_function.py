@@ -14,11 +14,14 @@ def lambda_handler(event, context):
     elif event['request']['type'] == 'SessionEndedRequest':
         return on_session_ended(event['request'], event['session'])
 
+
 def on_session_started(session_started_request, session):
     print('Starting new session.')
 
+
 def on_launch(launch_request, session):
     return get_welcome_response()
+
 
 def on_intent(intent_request, session):
     print(intent_request)
