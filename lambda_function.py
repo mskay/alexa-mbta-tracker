@@ -1,5 +1,5 @@
 from src.train_arrival import TrainCalculator
-
+from src.blue import blue
 
 def lambda_handler(event, context):
     if event['session']['application']['applicationId'] != 'amzn1.ask.skill.bc3a2097-1952-4ef0-a6d6-9161c2f88eea':
@@ -24,7 +24,6 @@ def on_launch(launch_request, session):
 
 
 def on_intent(intent_request, session):
-    print(intent_request)
     intent = intent_request['intent']
     intent_name = intent_request['intent']['name']
 

@@ -3,6 +3,8 @@ import os
 import time
 from datetime import datetime, timedelta
 from src.stations import stations
+from src.blue import blue
+
 API_KEY = os.environ.get('API_KEY')
 BASE_URL = 'https://api-v3.mbta.com/'
 
@@ -17,8 +19,11 @@ class TrainCalculator:
         :return: Id of station
         """
         line = intent['slots']['Line']['value'].lower()
-        stop = intent['slots']['Stop']['value'].lower()
-
+        Stop = intent['slots']['Stop']
+        if 'resolutions' in Stop and'resolutionsPerAuthority' in Stop['resolutions'] and 'values' in Stop['resolutions']['resolutionsPerAuthority'][0]:
+            stop = Stop['resolutions']['resolutionsPerAuthority'][0]['values'][0]['value']['name']
+        else:
+            stop = intent['slots']['Stop']['value'].lower()
         if line not in stations:
             message = '{} train line not found, please specify a valid route. For example green, red, blue, orange'.format(line)
             return None, None, None, None, message
@@ -51,7 +56,12 @@ class TrainCalculator:
         :param response_json:
         :return: float of time difference between current time and expected arrival time
         """
-        next_train = str(response_json['data'][0]['attributes']['arrival_time']).split('-05:00')[0]
+        if response_json['data'][0]['attributes']['arrival_time']:
+            next_train = str(response_json['data'][0]['attributes']['arrival_time']).split('-05:00')[0]
+            arrive_depart = 'arrive at'
+        else:
+            next_train = str(response_json['data'][0]['attributes']['departure_time']).split('-05:00')[0]
+            arrive_depart = 'depart from'
 
         train_arrival = datetime.strptime(next_train, '%Y-%m-%dT%H:%M:%S') + timedelta(hours=5)
 
@@ -66,7 +76,7 @@ class TrainCalculator:
             arrival_time = int(train_arrival.timestamp() * 1000)
             time_difference = (arrival_time - current_time)/1000
 
-        return time_difference
+        return time_difference, arrive_depart
 
     @staticmethod
     def get_train_arrival(intent):
@@ -96,13 +106,15 @@ class TrainCalculator:
                 response_json = response.json()
 
                 # Get the time difference between current time and estimated train arrival time
-                time_difference = TrainCalculator.calculate_arrival(response_json)
+                time_difference, arrive_depart = TrainCalculator.calculate_arrival(response_json)
                 time_difference = time_difference/60
                 minutes = str(time_difference).split('.')[0]
                 seconds = '.' + str(time_difference).split('.')[1]
                 seconds = round(float(seconds), 4)
                 seconds = str(int(round((seconds * 60), 0)))
-                response_speech += 'The next {} line train to {} will arrive at {} in {} minutes, and {} seconds. '.format(line, direction, stop, minutes, seconds)
+
+                minutes_text = 'minute' if int(minutes) == 1 else 'minutes'
+                response_speech += 'The next {} line train to {} will {} {} in {} {}, and {} seconds'.format(line, direction, arrive_depart, stop, minutes, minutes_text, seconds)
         else:
             # Call API to get train predictions for station_id
             url = '{}predictions/?api_key={}&filter[stop]={}'.format(BASE_URL, API_KEY, station_id)
@@ -110,7 +122,7 @@ class TrainCalculator:
             response_json = response.json()
 
             # Get the time difference between current time and estimated train arrival time
-            time_difference = TrainCalculator.calculate_arrival(response_json)
+            time_difference, arrive_depart = TrainCalculator.calculate_arrival(response_json)
             time_difference = time_difference/60
             minutes = str(time_difference).split('.')[0]
             seconds = '.' + str(time_difference).split('.')[1]
@@ -118,6 +130,6 @@ class TrainCalculator:
             seconds = str(int(round((seconds * 60), 0)))
 
             minutes_text = 'minute' if int(minutes) == 1 else 'minutes'
-            response_speech = 'The next {} line train to {} will arrive at {} in {} {}, and {} seconds'.format(line, direction, stop, minutes, minutes_text, seconds)
+            response_speech = 'The next {} line train to {} will {} {} in {} {}, and {} seconds'.format(line, direction, arrive_depart, stop, minutes, minutes_text, seconds)
 
         return response_speech
