@@ -1,623 +1,637 @@
 stations = {
     'red': {
         'Braintree': {
-            'alewife': 70105
+            'Alewife': 70105
         },
         'Quincy Adams': {
-            'braintree': 70103,
-            'alewife': 70104
+            'Braintree': 70103,
+            'Alewife': 70104
         },
         'Quincy Center': {
-            'braintree': 70101,
-            'alewife': 70102
+            'Braintree': 70101,
+            'Alewife': 70102
         },
         'Wollaston': {
-            'braintree': 70099,
-            'alewife': 70100
+            'Braintree': 70099,
+            'Alewife': 70100
         },
         'North Quincy': {
-            'braintree': 70097,
-            'alewife': 70098
+            'Braintree': 70097,
+            'Alewife': 70098
         },
         'Ashmont': {
-            'alewife': 70094
+            'Alewife': 70094
         },
         'Shawmut': {
-            'ashmont': 70091,
-            'alewife': 70092
+            'Ashmont': 70091,
+            'Alewife': 70092
         },
         'Fields Corner': {
-            'ashmont': 70089,
-            'alewife': 70090
+            'Ashmont': 70089,
+            'Alewife': 70090
         },
         'Savin Hill': {
-            'ashmont': 70087,
-            'alewife': 70088
+            'Ashmont': 70087,
+            'Alewife': 70088
         },
         'JFK/Umass': {
-            'ashmont': 70085,
-            'braintree': 70095,
-            'alewife': 70086,
+            'Ashmont': 70085,
+            'Braintree': 70095,
+            'Alewife': 70086,
             'alewife2': 70096
         },
         'Andrew': {
-            'ashmont': 70083,
-            'braintree': 70083,
-            'alewife': 70084
+            'Ashmont': 70083,
+            'Braintree': 70083,
+            'Alewife': 70084
         },
         'Broadway': {
-            'ashmont': 70081,
-            'braintree': 70081,
-            'alewife': 70082
+            'Ashmont': 70081,
+            'Braintree': 70081,
+            'Alewife': 70082
         },
-        'south station': {
-            'ashmont': 70079,
-            'braintree': 70079,
-            'alewife': 70080
+        'South Station': {
+            'Ashmont': 70079,
+            'Braintree': 70079,
+            'Alewife': 70080
         },
         'downtown crossing': {
-            'ashmont': 70077,
-            'braintree': 70077,
-            'alewife': 70078
+            'Ashmont': 70077,
+            'Braintree': 70077,
+            'Alewife': 70078
         },
         'Park Street': {
-            'ashmont': 70075,
-            'braintree': 70075,
-            'alewife': 70076
+            'Ashmont': 70075,
+            'Braintree': 70075,
+            'Alewife': 70076
         },
         'Charles/MGH': {
-            'ashmont': 70073,
-            'braintree': 70073,
-            'alewife': 70074
+            'Ashmont': 70073,
+            'Braintree': 70073,
+            'Alewife': 70074
         },
         'Kendall/MIT': {
-            'ashmont': 70071,
-            'braintree': 70071,
-            'alewife': 70072
+            'Ashmont': 70071,
+            'Braintree': 70071,
+            'Alewife': 70072
         },
         'Central': {
-            'ashmont': 70069,
-            'braintree': 70069,
-            'alewife': 70070
+            'Ashmont': 70069,
+            'Braintree': 70069,
+            'Alewife': 70070
         },
         'Harvard': {
-            'ashmont': 70067,
-            'braintree': 70067,
-            'alewife': 70068
+            'Ashmont': 70067,
+            'Braintree': 70067,
+            'Alewife': 70068
         },
         'Porter': {
-            'ashmont': 70065,
-            'braintree': 70065,
-            'alewife': 70066
+            'Ashmont': 70065,
+            'Braintree': 70065,
+            'Alewife': 70066
         },
         'Davis': {
-            'ashmont': 70063,
-            'braintree': 70063,
-            'alewife': 70064
+            'Ashmont': 70063,
+            'Braintree': 70063,
+            'Alewife': 70064
         },
         'Alewife': {
-            'ashmont': 70061,
-            'braintree': 70061,
+            'Ashmont': 70061,
+            'Braintree': 70061,
         }
     },
     'blue': {
-        'wonderland': {
-            'bowdoin': 70059,
+        'Wonderland': {
+            'Bowdoin': 70059,
             'Exit Only': 70060
         },
-        'bowdoin': {
-            'wonderland': 70038,
+        'Bowdoin': {
+            'Wonderland': 70038,
             'Exit Only': 70838
         },
         'Revere Beach': {
-            'bowdoin': 70057,
-            'wonderland': 70058
+            'Bowdoin': 70057,
+            'Wonderland': 70058
         },
         'Aquarium': {
-            'wonderland': 70044,
-            'bowdoin': 70043
+            'Wonderland': 70044,
+            'Bowdoin': 70043
         },
         'Wood Island': {
-            'wonderland': 70050,
-            'bowdoin': 70049
+            'Wonderland': 70050,
+            'Bowdoin': 70049
         },
         'State Street': {
-            'bowdoin': 70041,
-            'wonderland': 70042
+            'Bowdoin': 70041,
+            'Wonderland': 70042
         },
         'Beachmont': {
-            'bowdoin': 70055,
-            'wonderland': 70056
+            'Bowdoin': 70055,
+            'Wonderland': 70056
         },
         'Suffolk Downs': {
-            'wonderland': 70054,
-            'bowdoin': 70053
+            'Wonderland': 70054,
+            'Bowdoin': 70053
         },
         'Government Center': {
-            'bowdoin': 70039,
-            'wonderland': 70040
+            'Bowdoin': 70039,
+            'Wonderland': 70040
         },
         'Maverick': {
-            'bowdoin': 70045,
-            'wonderland': 70046
+            'Bowdoin': 70045,
+            'Wonderland': 70046
         },
         'airport': {
-            'wonderland': 70048,
-            'bowdoin': 70047
+            'Wonderland': 70048,
+            'Bowdoin': 70047
         },
         'Orient Heights': {
-             'bowdoin': 70051,
-             'wonderland': 70052
+             'Bowdoin': 70051,
+             'Wonderland': 70052
         }
     },
     'green': {
-        'cleveland circle': {
-            'park street and north station': 70238,
+        'Cleveland Circle': {
+            'Park Street and North Station': 70238,
             'Exit Only': 70237
         },
         'Park Street': {
-            'cleveland circle': 70197,
-            'heath street': 70199,
-            'boston college': 70196,
-            'riverside': 70198,
+            'Cleveland Circle': 70197,
+            'Heath Street': 70199,
+            'Boston College': 70196,
+            'Riverside': 70198,
             'Government Center & North': 70200
         },
         'Prudential': {
-            'park street and north station': 70240,
-            'heath street': 70239
+            'Park Street and North Station': 70240,
+            'Heath Street': 70239
         },
-        'riverside': {
-            'park street and north station': 70160,
+        'Riverside': {
+            'Park Street and North Station': 70160,
             'Exit Only': 70161
         },
         'South Street': {
-            'boston college': 70111,
-            'park street and north station': 70110
+            'Boston College': 70111,
+            'Park Street and North Station': 70110
         },
         'Back of the Hill': {
-            'park street and north station': 70258,
-            'heath street': 70257
+            'Park Street and North Station': 70258,
+            'Heath Street': 70257
         },
         'Copley': {
-            'park street and north station': 70154,
-            'Kenmore & West/heath street': 70155
+            'Park Street and North Station': 70154,
+            'Kenmore & West': 70155,
+            'Heath Street': 70155
         },
         'Fenwood Road': {
-            'park street and north station': 70252,
-            'heath street': 70251
+            'Park Street and North Station': 70252,
+            'Heath Street': 70251
         },
         'Government Center': {
-            'Copley & West': 70202,
+            'Copley and West': 70202,
             'North Station & North': 70201
         },
         'Haymarket': {
-            'Copley & West': 70204,
+            'Copley and West': 70204,
             'North Station & North': 70203
         },
         'Griggs Street': {
-            'park street and north station': 70128,
-            'boston college': 70129
+            'Park Street and North Station': 70128,
+            'Boston College': 70129
         },
         'Boston University East': {
-            'park street and north station': 70146,
-            'boston college': 70147
+            'Park Street and North Station': 70146,
+            'Boston College': 70147
         },
         'Chiswick Road': {
-            'boston college': 70115,
-            'park street and north station': 70114
+            'Boston College': 70115,
+            'Park Street and North Station': 70114
         },
-        'heath street': {
+        'Heath Street': {
             'Green Line': 70260
         },
         'Beaconsfield': {
-            'riverside': 70177,
-            'park street and north station': 70176
+            'Riverside': 70177,
+            'Park Street and North Station': 70176
         },
         'Fairbanks Street': {
-            'park street and north station': 70228,
-            'cleveland circle': 70227
+            'Park Street and North Station': 70228,
+            'Cleveland Circle': 70227
         },
         'Boylston': {
-            'park street and north station': 70158,
-            'Copley & West': 70159
+            'Park Street and North Station': 70158,
+            'Copley and West': 70159
         },
         'Hawes Street': {
-            'cleveland circle': 70213,
-            'park street and north station': 70214
+            'Cleveland Circle': 70213,
+            'Park Street and North Station': 70214
         },
         'Saint Paul Street': {
-            'boston college': 70141,
-            'park street and north station': 70218,
-            'cleveland circle': 70217
+            'Boston College': 70141,
+            'Park Street and North Station': 70218,
+            'Cleveland Circle': 70217
         },
         'Arlington': {
-            'Copley & West': 70157,
-            'park street and north station': 70156
+            'Copley and West': 70157,
+            'Park Street and North Station': 70156
         },
         'Tappan Street': {
-            'park street and north station': 70232,
-            'cleveland circle': 70231
+            'Park Street and North Station': 70232,
+            'Cleveland Circle': 70231
         },
         'Harvard Avenue': {
-            'boston college': 70131,
-            'park street and north station': 70130
+            'Boston College': 70131,
+            'Park Street and North Station': 70130
         },
         'Waban': {
-            'park street and north station': 70164,
-            'riverside': 70165
+            'Park Street and North Station': 70164,
+            'Riverside': 70165
         },
         'Saint Marys Street': {
-            'cleveland circle': 70211,
-            'park street and north station': 70212
+            'Cleveland Circle': 70211,
+            'Park Street and North Station': 70212
         },
         'Hynes Convention Center': {
-            'park street and north station': 70152,
+            'Park Street and North Station': 70152,
             'Kenmore & West': 70153
         },
-        'lechmere': {
-            'Copley & West': 70210,
+        'Lechmere': {
+            'Copley and West': 70210,
             'Exit Only': 70209
         },
         'Allston Street': {
-            'boston college': 70127,
-            'park street and north station': 70126
+            'Boston College': 70127,
+            'Park Street and North Station': 70126
         },
         'Museum of Fine Arts': {
-            'heath street': 70245,
-            'park street and north station': 70246
+            'Heath Street': 70245,
+            'Park Street and North Station': 70246
         },
         'Longwood': {
-            'riverside': 70183,
-            'park street and north station': 70182
+            'Riverside': 70183,
+            'Park Street and North Station': 70182
         },
         'Washington Square': {
-            'cleveland circle': 70229,
-            'park street and north station': 70230
+            'Cleveland Circle': 70229,
+            'Park Street and North Station': 70230
         },
         'Brandon Hall': {
-            'park street and north station': 70226,
-            'cleveland circle': 70225
+            'Park Street and North Station': 70226,
+            'Cleveland Circle': 70225
         },
         'Longwood Medical Area': {
-            'heath street': 70247,
-            'park street and north station': 70248
+            'Heath Street': 70247,
+            'Park Street and North Station': 70248
         },
         'Eliot': {
-            'riverside': 70167,
-            'park street and north station': 70166
+            'Riverside': 70167,
+            'Park Street and North Station': 70166
         },
         'Washington Street': {
-            'boston college': 70121,
-            'park street and north station': 70120
+            'Boston College': 70121,
+            'Park Street and North Station': 70120
         },
         'Boston University West': {
-            'park street and north station': 70142,
-            'boston college': 70143
+            'Park Street and North Station': 70142,
+            'Boston College': 70143
         },
         'Newton Centre': {
-            'park street and north station': 70170,
-            'riverside': 70171
+            'Park Street and North Station': 70170,
+            'Riverside': 70171
         },
         'Chestnut Hill': {
-            'riverside': 70173,
-            'park street and north station': 70172
+            'Riverside': 70173,
+            'Park Street and North Station': 70172
         },
         'Sutherland Road': {
-            'boston college': 70117,
-            'park street and north station': 70116
+            'Boston College': 70117,
+            'Park Street and North Station': 70116
         },
         'Symphony': {
-            'park street and north station': 70242,
-            'heath street': 70241
+            'Park Street and North Station': 70242,
+            'Heath Street': 70241
         },
         'Brookline Hills': {
             'Reservoir Shuttle': 9070178,
             'Green Line Shuttle': 9170178,
             'Fenway Shuttle': 9070179,
-            'riverside': 70179,
-            'park street and north station': 70178
+            'Riverside': 70179,
+            'Park Street and North Station': 70178
         },
         'Kent Street': {
-            'park street and north station': 70216,
-            'cleveland circle': 70215
+            'Park Street and North Station': 70216,
+            'Cleveland Circle': 70215
         },
         'Packards Corner': {
-            'boston college': 70135,
-            'park street and north station': 70134
+            'Boston College': 70135,
+            'Park Street and North Station': 70134
         },
         'Blandford Street': {
-            'boston college': 70149,
-            'park street and north station': 70148
+            'Boston College': 70149,
+            'Park Street and North Station': 70148
         },
         'Northeastern University': {
-            'park street and north station': 70244,
-            'heath street': 70243
+            'Park Street and North Station': 70244,
+            'Heath Street': 70243
         },
         'Fenway': {
-            'park street and north station': 70186,
-            'riverside': 70187
+            'Park Street and North Station': 70186,
+            'Riverside': 70187
         },
         'Pleasant Street': {
-            'boston college': 70139,
-            'park street and north station': 70138
+            'Boston College': 70139,
+            'Park Street and North Station': 70138
         },
         'Mission Park': {
-            'park street and north station': 70254,
-            'heath street': 70253
+            'Park Street and North Station': 70254,
+            'Heath Street': 70253
         },
         'Reservoir': {
-            'riverside': 70175,
-            'park street and north station': 70174
+            'Riverside': 70175,
+            'Park Street and North Station': 70174
         },
         'Summit Avenue': {
-            'cleveland circle': 70223,
-            'park street and north station': 70224
+            'Cleveland Circle': 70223,
+            'Park Street and North Station': 70224
         },
         'Dean Road': {
-            'cleveland circle': 70233,
-            'park street and north station': 70234
+            'Cleveland Circle': 70233,
+            'Park Street and North Station': 70234
         },
         'Kenmore': {
-            'park street and north station': 70150,
+            'Park Street and North Station': 70150,
             'Green Line Shuttle': 9070150,
-            'boston college/cleveland circle/riverside': 70151
+            'Boston College': 70151,
+            'Cleveland Circle': 70151,
+            'Riverside': 70151
         },
-        'boston college': {
-            'park street and north station': 70106,
+        'Boston College': {
+            'Park Street and North Station': 70106,
             'Exit Only': 70107
         },
         'Chestnut Hill Avenue': {
-            'park street and north station': 70112,
-            'boston college': 70113
+            'Park Street and North Station': 70112,
+            'Boston College': 70113
         },
         'Newton Highlands': {
-            'park street and north station': 70168,
-            'riverside': 70169
+            'Park Street and North Station': 70168,
+            'Riverside': 70169
         },
         'Brookline Village': {
-            'park street and north station': 70180,
-            'riverside': 70181
+            'Park Street and North Station': 70180,
+            'Riverside': 70181
         },
         'Woodland': {
-            'park street and north station': 70162,
-            'riverside': 70163
+            'Park Street and North Station': 70162,
+            'Riverside': 70163
         },
         'Boston University Central': {
-            'park street and north station': 70144,
-            'boston college': 70145
+            'Park Street and North Station': 70144,
+            'Boston College': 70145
         },
         'Brigham Circle': {
-            'park street and north station': 70250,
-            'heath street': 70249
+            'Park Street and North Station': 70250,
+            'Heath Street': 70249
         },
         'Riverway': {
-            'heath street': 70255,
-            'park street and north station': 70256
+            'Heath Street': 70255,
+            'Park Street and North Station': 70256
         },
         'Science Park': {
-            'lechmere': 70207,
-            'Copley & West': 70208
+            'Lechmere': 70207,
+            'Copley and West': 70208
         },
         'Englewood Avenue': {
-            'park street and north station': 70236,
-            'cleveland circle': 70235
+            'Park Street and North Station': 70236,
+            'Cleveland Circle': 70235
         },
         'Babcock Street': {
-            'boston college': 70137,
-            'park street and north station': 70136
+            'Boston College': 70137,
+            'Park Street and North Station': 70136
         },
         'Warren Street': {
-            'park street and north station': 70124,
-            'boston college': 70125
+            'Park Street and North Station': 70124,
+            'Boston College': 70125
         },
         'Coolidge Corner': {
-            'cleveland circle': 70219,
-            'park street and north station': 70220
+            'Cleveland Circle': 70219,
+            'Park Street and North Station': 70220
         },
         'North Station': {
-            'lechmere': 70205,
-            'Copley & West': 70206
+            'Lechmere': 70205,
+            'Copley and West': 70206
         }
     },
     'orange': {
         'Jackson Square': {
-            'oak grove': 70007,
-            'forest hills': 70006
+            'Oak Grove': 70007,
+            'Forest Hills': 70006
         },
         'Sullivan Square': {
-            'forest hills': 70030,
-            'oak grove': 70031
+            'Forest Hills': 70030,
+            'Oak Grove': 70031
         },
         'Wellington': {
-            'forest hills': 70032,
-            'oak grove': 70033
+            'Forest Hills': 70032,
+            'Oak Grove': 70033
         },
         'Haymarket': {
-            'forest hills': 70024,
-            'oak grove': 70025
+            'Forest Hills': 70024,
+            'Oak Grove': 70025
         },
         'Community College': {
-            'oak grove': 70029,
-            'forest hills': 70028
+            'Oak Grove': 70029,
+            'Forest Hills': 70028
         },
         'North Station': {
-            'oak grove': 70027,
-            'forest hills': 70026
+            'Oak Grove': 70027,
+            'Forest Hills': 70026
         },
         'Roxbury Crossing': {
-            'oak grove': 70009,
-            'forest hills': 70008
+            'Oak Grove': 70009,
+            'Forest Hills': 70008
         },
         'Back Bay': {
-            'oak grove': 70015,
-            'forest hills': 70014
+            'Oak Grove': 70015,
+            'Forest Hills': 70014
         },
-        'oak grove': {
+        'Oak Grove': {
             'Orange Line': 70036
         },
         'Malden Center': {
-            'oak grove': 70035,
-            'forest hills': 70034
+            'Oak Grove': 70035,
+            'Forest Hills': 70034
         },
         'Green Street': {
-            'oak grove': 70003,
-            'forest hills': 70002
+            'Oak Grove': 70003,
+            'Forest Hills': 70002
         },
         'Tufts Medical Center': {
-            'oak grove': 70017,
-            'forest hills': 70016
+            'Oak Grove': 70017,
+            'Forest Hills': 70016
         },
         'Stony Brook': {
-            'oak grove': 70005,
-            'forest hills': 70004
+            'Oak Grove': 70005,
+            'Forest Hills': 70004
         },
         'Assembly': {
-            'forest hills': 70278,
-            'oak grove': 70279
+            'Forest Hills': 70278,
+            'Oak Grove': 70279
         },
-        'forest hills': {
+        'Forest Hills': {
             'Orange Line': 70001
         },
         'State Street': {
-            'forest hills': 70022,
-            'oak grove': 70023
+            'Forest Hills': 70022,
+            'Oak Grove': 70023
         },
         'Ruggles': {
-            'forest hills': 70010,
-            'oak grove': 70011
+            'Forest Hills': 70010,
+            'Oak Grove': 70011
         },
         'downtown crossing': {
-            'oak grove': 70021,
-            'forest hills': 70020
+            'Oak Grove': 70021,
+            'Forest Hills': 70020
         },
         'Chinatown': {
-            'oak grove': 70019,
-            'forest hills': 70018
+            'Oak Grove': 70019,
+            'Forest Hills': 70018
         },
         'Massachusetts Avenue': {
-            'oak grove': 70013,
-            'forest hills': 70012
+            'Oak Grove': 70013,
+            'Forest Hills': 70012
         }
     },
     'silver': {
         'Silver Line Way after Manulife Building': {
-            'airport/design center/chelsea': 74624
+            'Airport': 74624,
+            'Design Center': 74624,
+            'Chelsea': 74624
         },
         'Northern Ave @ Harbor St': {
-            'design center': 247
+            'Design Center': 247
         },
         'Northern Ave @ Tide St': {
-            'south station': 31257,
-            'design center': 30249
+            'South Station': 31257,
+            'Design Center': 30249
         },
         'Terminal C - Arrivals Level': {
-            'south station': 17094
+            'South Station': 17094
         },
         'Washington St @ E Berkeley St': {
-            'south station/downtown crossing': 5095,
-            'dudley': 5098
+            'South Station': 5095,
+            'Downtown crossing': 5095,
+            'Dudley': 5098
         },
         'Terminal B Stop 2 - Arrivals Level': {
-            'south station': 17093
+            'South Station': 17093
         },
-        'south station': {
+        'South Station': {
             'Exit Only': 74617,
-            'airport/design center/chelsea': 74611
+            'Airport': 74611,
+            'Design Center': 74611,
+            'Chelsea': 74611
         },
-        'Drydock Ave @ design center Place': {
-            'south station': 31255
+        'Drydock Ave @ Design Center Place': {
+            'South Station': 31255
         },
         'Courthouse': {
-            'airport/design center/chelsea': 74612,
-            'south station': 74616
+            'Airport': 74612,
+            'Design Center': 74612,
+            'Chelsea': 74612,
+            'South Station': 74616
         },
         '88 Black Falcon': {
-            'south station': 31258
+            'South Station': 31258
         },
         'Eastern Avenue': {
-            'south station': 74636,
-            'chelsea': 74637
+            'South Station': 74636,
+            'Chelsea': 74637
         },
         'Washington St @ Union Pk': {
-            'south station/downtown crossing': 5093,
-            'dudley': 5100
+            'South Station': 5093,
+            'Downtown Crossing': 5093,
+            'Dudley': 5100
         },
         'Washington St @ Lenox St': {
-            'dudley': 60
+            'Dudley': 60
         },
         'Bellingham Square': {
-            'chelsea': 74633,
-            'south station': 74632
+            'Chelsea': 74633,
+            'South Station': 74632
         },
         'Drydock Ave @ Black Falcon Ave': {
-            'design center': 31259
+            'Design Center': 31259
         },
         'Washington St @ Massachusetts Ave': {
-            'dudley': 55
+            'Dudley': 55
         },
         'Temple Pl @ Washington St': {
-            'dudley': 49001
+            'Dudley': 49001
         },
         'Box District': {
-            'chelsea': 74635,
-            'south station': 74634
+            'Chelsea': 74635,
+            'South Station': 74634
         },
         'Washington St @ W Newton St': {
-            'dudley': 19402
+            'Dudley': 19402
         },
         'Silver Line Way before Manulife Building': {
-            'south station': 74614
+            'South Station': 74614
         },
         'Washington St @ Herald St': {
-            'dudley': 49003
+            'Dudley': 49003
         },
         'Washington St @ Melnea Cass Blvd': {
-            'dudley': 61
+            'Dudley': 61
         },
         'Terminal E - Arrivals Level': {
-            'south station': 17095
+            'South Station': 17095
         },
         'Washington St @ Melnea Cass Blvd - Silver Line': {
-            'south station/downtown crossing': 3
+            'South Station': 3,
+            'Downtown Crossing': 3
         },
         'Terminal B Stop 1 - Arrivals Level': {
-            'south station': 27092
+            'South Station': 27092
         },
         'Washington St @ Essex St': {
             'downtown crossing': 6567
         },
         'airport': {
-            'chelsea': 7096,
-            'south station': 7097
+            'Chelsea': 7096,
+            'South Station': 7097
         },
-        'chelsea': {
-            'south station': 74630,
+        'Chelsea': {
+            'South Station': 74630,
             'Exit Only': 74631
         },
         'Northern Ave opp Harbor St': {
-            'south station': 31256
+            'South Station': 31256
         },
         '23 Drydock Ave': {
-            'design center': 30250
+            'Design Center': 30250
         },
         'World Trade Center': {
-            'south station': 74615,
-            'airport/design center/chelsea': 74613
+            'South Station': 74615,
+            'Airport': 74613,
+            'Design Center': 74613,
+            'Chelsea': 74613
         },
         'Tufts Medical Center': {
-            'dudley': 49002
+            'Dudley': 49002
         },
         'Washington St @ Worcester St': {
-            'dudley': 15176
+            'Dudley': 15176
         },
         'Congress @ World Trade Center Sta': {
-            'south station': 17096
+            'South Station': 17096
         },
         'Essex St @ Atlantic Ave': {
-            'dudley': 6538
+            'Dudley': 6538
         },
         'Terminal A': {
-            'south station': 17091
+            'South Station': 17091
         }
     }
 }
