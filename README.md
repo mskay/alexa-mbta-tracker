@@ -1,6 +1,8 @@
 # Charlie Tracker
 
 Alexa Skill for getting the predicted arrival time of a MBTA train at a particular station.
+    
+https://www.amazon.com/mskay-Charlie-Tracker/dp/B07L2Z6S7W/
 
 ### How to use:
 Initiate skill by saying "Alexa, open Charlie Tracker"
